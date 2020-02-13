@@ -1,0 +1,6 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+app_about_about:
+  path: /about/about
+  controller: App\Controller\AboutController::about

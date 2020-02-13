@@ -1,0 +1,20 @@
+1. Check PHP version - PHP 7.2.5 or higher and these PHP extensions: (Ctype, iconv, JSON, PCRE, Session, SimpleXML Tokenizer) in 2020
+
+2. Install Composer & conposer -v
+
+3. Install Symfony:  curl -sS https://get.symfony.com/cli/installer | bash
+Add this to your shell configuration file:
+  export PATH="$HOME/.symfony/bin:$PATH"
+Start a new shell, and then run 'symfony'
+Or install it globally on your system:
+  mv /Users/klassev/.symfony/bin/symfony /usr/local/bin/symfony
+and then run 'symfony'
+
+4. Проверка: symfony check:requirements
+
+5. Создаем новый проект:
+symfony new my_project_name --full  (все пакеты устанавливаем сразу)
+symfony new my_project_name (минимальный набо для консольных приложения, микросервисов или API)
+composer create-project symfony/website-skeleton symfony-starter
+
+6. .htaccess ?????
